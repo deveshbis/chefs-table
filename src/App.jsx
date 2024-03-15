@@ -1,5 +1,6 @@
 
 import './App.css'
+import Header from './component/Header/Header'
 
 function App() {
 
@@ -7,8 +8,8 @@ function App() {
   return (
     <>
 
-      <h1 className='text-5xl'>Recipe Calories</h1>
       
+      <Header></Header>
 
 
     </>
