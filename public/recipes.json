@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Grilled Chicken Salad",
+      "recipe_image": "https://i.ibb.co/nnTmvk5/fresh-vegetable-salad-with-grilled-chicken-breast.jpg",
+      "short_description": "Healthy and delicious grilled chicken salad.",
+      "ingredients": ["2 chicken breasts", "4 cups mixed greens", "1 cup cherry tomatoes", "1/2 cucumber", "1/4 red onion", "1/4 cup feta cheese", "2 tablespoons balsamic vinaigrette"],
+      "preparing_time": "20 min",
+      "calories": "300 calories"
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Vegetable Pasta Primavera",
+      "recipe_image": "https://i.ibb.co/802mfjw/vegetarian-pasta-fusilli-with-tomato-broccoli.jpg",
+      "short_description": "Colorful pasta primavera loaded with fresh vegetables.",
+      "ingredients": ["8 oz pasta", "1 cup broccoli florets", "1 carrot", "1 yellow bell pepper", "1 zucchini", "1 cup cherry tomatoes", "2 cloves garlic", "2 tablespoons olive oil", "Salt and pepper to taste"],
+      "preparing_time": "25 min",
+      "calories": "350 calories"
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Spaghetti Bolognese",
+      "recipe_image": "https://i.ibb.co/S7zmQkB/spaghetti-with-bolognese-sauce-wooden-table.jpg",
+      "short_description": "Classic Italian spaghetti with rich Bolognese sauce.",
+      "ingredients": ["8 oz spaghetti", "1/2 lb ground beef", "1/2 lb ground pork", "1 onion", "2 cloves garlic", "1 can crushed tomatoes", "1/2 cup beef broth", "1 teaspoon dried oregano", "1/2 teaspoon dried basil", "Salt and pepper to taste"],
+      "preparing_time": "40 min",
+      "calories": "400 calories"
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Vegetable Stir-Fry",
+      "recipe_image": "https://i.ibb.co/HN8Z1Hw/chicken-stir-fry-vegetables-isolated-white-background.jpg",
+      "short_description": "Quick and healthy vegetable stir-fry with a savory sauce.",
+      "ingredients": ["2 cups mixed vegetables (bell peppers, broccoli, snap peas, carrots)", "1/4 cup soy sauce", "2 tablespoons hoisin sauce", "1 tablespoon sesame oil", "2 cloves garlic", "1 teaspoon ginger", "1 tablespoon cornstarch", "2 tablespoons water", "Cooking oil for frying"],
+      "preparing_time": "15 min",
+      "calories": "250 calories"
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Banana Oat Pancakes",
+      "recipe_image": "https://i.ibb.co/MMN1vZP/almond-banana-pancake.jpg",
+      "short_description": "Healthy and delicious pancakes made with bananas and oats.",
+      "ingredients": ["2 ripe bananas", "1 cup rolled oats", "2 eggs", "1 teaspoon baking powder", "1/2 teaspoon cinnamon", "1/4 cup milk", "1 teaspoon vanilla extract", "Cooking spray or butter for cooking"],
+      "preparing_time": "15 min",
+      "calories": "200 calories"
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Roasted Vegetable Quinoa Bowl",
+      "recipe_image": "https://i.ibb.co/2t73QXj/front-close-view-vegetable-salad-with-seasonings-blue-background.jpg",
+      "short_description": "Nourishing quinoa bowl with roasted vegetables and a tangy dressing.",
+      "ingredients": ["1 cup quinoa", "2 cups mixed vegetables (zucchini, bell peppers, cherry tomatoes)", "2 tablespoons olive oil", "1 tablespoon balsamic vinegar", "1 tablespoon honey", "1 teaspoon Dijon mustard", "Salt and pepper to taste"],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+    }
+  ]
+  
