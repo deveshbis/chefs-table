@@ -2,8 +2,7 @@
 import './App.css'
 import Banner from './component/Banner/Banner'
 import Header from './component/Header/Header'
-import Cart from './component/Recipes/Cart/Cart'
-import Recipe from './component/Recipes/Recipe/Recipe'
+
 import Recipes from './component/Recipes/Recipes'
 
 function App() {
@@ -18,10 +17,10 @@ function App() {
         <Banner></Banner>
         <div>
           <Recipes></Recipes>
-          <div className='flex justify-between mt-5'>
+          {/* <div className='flex justify-between mt-5'>
             <Recipe></Recipe>
             <Cart></Cart>
-          </div>
+          </div> */}
         </div>
       </div>
 

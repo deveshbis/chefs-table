@@ -1,7 +1,7 @@
 import { AiOutlineFieldTime, AiOutlineFire } from "react-icons/ai";
 import PropTypes from 'prop-types';
 
-const Card = ({ card }) => {
+const Card = ({ card, handleAddCart }) => {
 
     const { recipe_image, recipe_name, short_description, preparing_time, calories, ingredients } = card
     return (
@@ -26,7 +26,7 @@ const Card = ({ card }) => {
                         <h4 className="flex items-center gap-2"><AiOutlineFire></AiOutlineFire>{calories}</h4>
                     </div>
                     <div className="card-actions mt-5">
-                        <button className="btn btn-primary">Want to Cook</button>
+                        <button className="btn btn-primary" onClick={()=> handleAddCart(card)}>Want to Cook</button>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,8 @@ const Card = ({ card }) => {
 };
 
 Card.propTypes = {
-    card: PropTypes.object
+    card: PropTypes.object.isRequired,
+    handleAddCart: PropTypes.func
 }
 
 export default Card;
