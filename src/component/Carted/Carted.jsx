@@ -7,20 +7,10 @@ const Carted = ({carted}) => {
         <div>
             
 
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto ">
                 <table className="table">
-                    
-                    <thead>
-                        <tr>
-                            <th>SL</th>
-                            <th>Name</th>
-                            <th>Time</th>
-                            <th>Calories</th>
-                        </tr>
-                    </thead>
                     <tbody>
-                       
-                        <tr className="bg-base-200">
+                        <tr className="bg-base-200 ">
                             <th></th>
                             <td>{recipe_name}</td>
                             <td>{preparing_time}</td>

@@ -2,7 +2,7 @@
 import { CgProfile } from "react-icons/cg";
 const Header = () => {
     return (
-        <div>
+        <div className="mt-10">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">

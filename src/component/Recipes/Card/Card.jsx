@@ -11,8 +11,8 @@ const Card = ({ card, handleAddCart }) => {
                 <div className="card-body">
                     <h2 className="card-title">{recipe_name}</h2>
                     <p>{short_description}</p>
-                    <hr className="p-3" />
-                    <div className="p-3">
+                    <hr className="" />
+                    <div className="">
                         <h3 className="text-xl mb-3">Ingredients: {ingredients.length}</h3>
                         <ol>
                             {
@@ -20,7 +20,7 @@ const Card = ({ card, handleAddCart }) => {
                             }
                         </ol>
                     </div>
-                    <hr className="p-3" />
+                    <hr className="" />
                     <div className="flex justify-between">
                         <h4 className="flex items-center gap-2"><AiOutlineFieldTime></AiOutlineFieldTime> {preparing_time}</h4>
                         <h4 className="flex items-center gap-2"><AiOutlineFire></AiOutlineFire>{calories}</h4>

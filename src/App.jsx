@@ -12,16 +12,10 @@ function App() {
     <>
 
 
-      <div className='px-32 ml-8 bg-slate-500'>
+      <div className='px-32 mt-10 bg-slate-500'>
         <Header></Header>
         <Banner></Banner>
-        <div>
-          <Recipes></Recipes>
-          {/* <div className='flex justify-between mt-5'>
-            <Recipe></Recipe>
-            <Cart></Cart>
-          </div> */}
-        </div>
+        <Recipes></Recipes>
       </div>
 
 
