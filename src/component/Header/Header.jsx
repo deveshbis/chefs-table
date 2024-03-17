@@ -2,8 +2,8 @@
 import { CgProfile } from "react-icons/cg";
 const Header = () => {
     return (
-        <div className="mt-10">
-            <div className="navbar bg-base-100">
+        <div className="lg:mt-5 mt-3">
+            <div className="navbar mb-3">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
@@ -16,10 +16,10 @@ const Header = () => {
                             <li><a>Search</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-3xl">Recipe Calories</a>
+                    <a className="btn btn-ghost lg:text-3xl text-xl">Recipe Calories</a>
                 </div>
                 <div className="navbar-center gap-3 hidden lg:flex">
-                    <ul className="menu menu-horizontal px-3">
+                    <ul className="menu menu-horizontal lg:px-3">
                         <li><a href="">Home</a></li>
                         <li><a href="">Recipes</a></li>
                         <li><a href="">About</a></li>
@@ -27,7 +27,7 @@ const Header = () => {
                     </ul>
                 </div>
 
-                <div className="navbar-end flex-none gap-2">
+                <div className="navbar-end flex-none lg:gap-2">
                     <div className="form-control">
                         <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
                     </div>

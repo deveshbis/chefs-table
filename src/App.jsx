@@ -12,10 +12,15 @@ function App() {
     <>
 
 
-      <div className='px-32 mt-10 bg-slate-500'>
-        <Header></Header>
-        <Banner></Banner>
-        <Recipes></Recipes>
+      <div className='lg:px-32'>
+        <div className='lg:mb-5 bg-green-500 rounded-lg'>
+          <Header></Header>
+        </div>
+        <div className='lg:mt-5'>
+          <Banner></Banner>
+          <Recipes></Recipes>
+        </div>
+
       </div>
 
 

@@ -16,7 +16,7 @@ const Recipe = ({handleAddCart}) => {
     return (
         <div className="w-2/3">
             <h2 className="text-2xl">Recipes No: {recipe.length}</h2>
-            <div className=" grid lg:grid-cols-2 lg:gap-4 mt-5">
+            <div className=" grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-3 lg:gap-4 mt-5">
                 {
                     recipe.map(card => <Card key={card.id} card={card} handleAddCart={handleAddCart}></Card>)
                 }

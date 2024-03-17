@@ -24,7 +24,7 @@ const Recipes = () => {
             <h1 className="text-5xl text-center mt-10">Our Recipes</h1>
             <p className="mt-3 text-center">Discover a world of flavors with Our Recipes, where each dish tells a story of passion and taste, inviting you to savor every moment.</p>
 
-            <div className="flex justify-between mt-5">
+            <div className="lg:flex lg:justify-between lg:mt-5 mb-2">
                 <Recipe handleAddCart={handleAddCart}></Recipe>
                 <Cart cart={cart}></Cart>
             </div>
