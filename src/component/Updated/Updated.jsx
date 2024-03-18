@@ -55,8 +55,6 @@ const Updated = ({ handleAddCart }) => {
         addToCookingTable(recipe);
     };
 
-
-
     useEffect(() => {
         let totalTimeSum = 0;
         let totalCaloriesSum = 0;
