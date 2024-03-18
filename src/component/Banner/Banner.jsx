@@ -11,7 +11,7 @@ const Banner = () => {
                         <p className="mb-5">Our Recipe Banner: Elevating your culinary journey with tantalizing flavors and irresistible creations, inspiring your inner chef.</p>
                         <div className='flex gap-10 justify-center'>
                             <button className="btn bg-green-500 rounded-[50px] px-7 ">Explore Now</button>
-                            <button className="btn backdrop-blur-none bg-white bg-opacity-30 rounded-[50px] px-7">Our Feedback</button>
+                            <button className="btn backdrop-blur-none  bg-opacity-30 rounded-[50px] px-7 text-[#FFFFFF]">Our Feedback</button>
 
                         </div>
                     </div>

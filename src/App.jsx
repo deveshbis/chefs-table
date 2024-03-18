@@ -14,7 +14,7 @@ function App() {
 
 
       <div className='lg:px-32'>
-        <div className='lg:mb-5 bg-green-500 rounded-lg'>
+        <div className='lg:mb-5 rounded-lg'>
           <Header></Header>
         </div>
 

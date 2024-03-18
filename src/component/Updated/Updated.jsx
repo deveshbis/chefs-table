@@ -70,6 +70,8 @@ const Updated = ({ handleAddCart }) => {
         setTotalCalories(totalCaloriesSum);
     }, [cookingTable]);
 
+    
+
     return (
         <div>
             <div className="lg:flex lg:justify-between ">
@@ -121,7 +123,7 @@ const Updated = ({ handleAddCart }) => {
                                             <td>{recipe.recipe_name}</td>
                                             <td>{recipe.preparing_time}</td>
                                             <td>{recipe.calories}</td>
-                                            <td><button className="bg-green-500 p-2 rounded-xl" onClick={() => handlePrepare(recipe)}>Prepare</button></td>
+                                            <td><button className="bg-green-500 p-2 rounded-[50px] text-[16px] font-medium" onClick={() => handlePrepare(recipe)}>Prepare</button></td>
                                         </tr>
                                     ))}
                                 </tbody>
